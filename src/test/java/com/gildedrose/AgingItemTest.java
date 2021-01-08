@@ -13,7 +13,7 @@ public class AgingItemTest {
     @Test
     void increaseQualityNormal() {
         app.calculateNextDay();
-        assert(app.items[0].sellIn == 911);
+        assert(app.items[0].sellIn == 9);
         assert(app.items[0].quality == 21);
         app.calculateNextDay();
         assert(app.items[0].sellIn == 8);
